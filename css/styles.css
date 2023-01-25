@@ -8,3 +8,21 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+.footer-box {
+  background: #2e2f42;
+}
+.word-web {
+  color: #4d5ae5;
+}
+.word-studio {
+  color: #f4f4fd;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
