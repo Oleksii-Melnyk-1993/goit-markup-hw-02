@@ -8,6 +8,7 @@ body {
   color: var(--primary-color);
 }
 .logo-name {
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -58,6 +59,7 @@ body {
 .main-btn:hover {
   background-color: var(--secondary-color);
   color: #f4f4fd;
+  cursor: pointer;
 }
 .main-item {
   list-style: none;
@@ -73,6 +75,15 @@ body {
   font-size: 20px;
   line-height: 24px;
   /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+}
+.main-after-title {
+  color: var(--font-description-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
 }
