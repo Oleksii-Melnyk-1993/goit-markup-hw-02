@@ -2,6 +2,7 @@
   --primary-color: #2e2f42;
   --secondary-color: #4d5ae5;
   --font-description-color: #434455;
+  --font-white-color: #ffffff;
 }
 body {
   font-family: Roboto;
@@ -32,13 +33,11 @@ body {
 .item:hover,
 .item:focus {
   color: var(--secondary-color);
-  cursor: pointer;
 }
 .header-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
 }
@@ -48,6 +47,27 @@ body {
 }
 .header-contact:focus,
 .header-contact:hover {
+  color: var(--secondary-color);
+}
+.headline-box {
+  background-color: var(--primary-color);
+}
+.headline {
+  color: var(--font-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.headline-button {
+  background-color: var(--secondary-color);
+  color: var(--font-white-color);
+  cursor: pointer;
+}
+.headline-button:hover,
+.headline-button:focus {
+  background-color: var(--font-white-color);
   color: var(--secondary-color);
 }
 .main-btn {
@@ -63,7 +83,6 @@ body {
 }
 .main-item {
   list-style: none;
-  border: 1px solid #e7e9fc;
 }
 .main-link {
   text-decoration: none;
@@ -73,19 +92,25 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
 }
 .main-after-title {
   color: var(--font-description-color);
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
+}
+.secondary-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+  color: var(--primary-color);
 }
 .box {
   background: #2e2f42;
@@ -100,7 +125,6 @@ body {
   color: #f4f4fd;
 }
 .footer-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
